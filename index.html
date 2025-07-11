@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <title>Document</title>
   </head>
   <body>
-    <p>test</p>
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list__item"><a href="#" class="nav-list__link">About</a></li>
+            <li class="nav-list__item"><a href="#" class="nav-list__link">My Skills</a></li>
+            <li class="nav-list__item"><a href="#" class="nav-list__link">Work Experience</a></li>
+            <li class="nav-list__item"><a href="#" class="nav-list__link">Contacts</a></li>
+            <li class="nav-list__item"><a href="#" class="nav-list__link">Education</a></li>
+            <li class="nav-list__item"><a href="#" class="nav-list__link">Languages</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="container">
+        <section class="section-hero">
+          <div class="presentation-box">
+
+          <h2 class="heading-secondary">
+            <span class="accent-text">Hello!</span> My name is Artem Gapich.
+          </h2>
+          <p class="heading-secondary u-margin-bottom-medium">
+           I'm a beginner <span class="accent-text">frontend developer</span> with strong motivation and understanding of <span class="accent-text">modern tools</span> and  <span class="accent-text">approaches</span>. 
+          </p>
+          <p class="presentation-box__text">
+            I enjoy learning new technologies, tackling challenges, and solving complex problems. I am committed to continuous improvement, dedicating time daily to studying web development, automation, and optimization.
+          </p>
+          <p class="presentation-box__text">
+           I dream of joining a team where I can develop as a specialist and bring **real benefit** to projects.
+          </p>
+          </div>
+          <div class="hero-img-box">
+            <img class="hero-img" src="img/hero-photo.png" alt="Person">
+          </div>
+        </section>
+
+        <section class="section-skills">
+          <h2 class="heading-secondary center u-margin-bottom-large">My <span class="accent-text">Skills</span></h2>
+          <div class="section-skills__content">
+            <div class="skill-element">
+              <h3 class="skill-element__heading">Programming & Markup Languages</h3>
+              <ul class="skill__list">
+                <li class="skill__item">JavaScript, HTML, CSS
+                  <div class="dev-icons">
+                  <img class="dev-icon" src="img/dev-icons/js.svg" alt="JavaScript-icon">
+                  <img class="dev-icon" src="img/dev-icons/html5.svg" alt="html5-icon">
+                  <img class="dev-icon" src="img/dev-icons/css3.svg" alt="css3-icon">
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="skill-element">
+              <h3 class="skill-element__heading">Development tools & Technologies</h3>
+              <ul class="skill__list">
+                <li class="skill__item">VS Code, npm, DevTools, GIT, Vite, Figma, Photoshop
+                  <div class="dev-icons">
+                    <img class="dev-icon" src="img/dev-icons/vscode.svg" alt="vscode-icon">
+                    <img class="dev-icon" src="img/dev-icons/npm.svg" alt="npm-icon">
+                    <img class="dev-icon" src="img/dev-icons/chrome.svg" alt="chrome-icon">
+                    <img class="dev-icon" src="img/dev-icons/git.svg" alt="git-icon">
+                    <img class="dev-icon" src="img/dev-icons/vitejs.svg" alt="vite-icon">
+                    <img class="dev-icon" src="img/dev-icons/figma.svg" alt="figma-icon">
+                    <img class="dev-icon" src="img/dev-icons/photoshop.svg" alt="photoshop-icon">
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="skill-element">
+              <h3 class="skill-element__heading">Operating Systems & Environments</h3>
+              <ul class="skill__list">
+                <li class="skill__item">Windows, basic skills working in a Linux environment via WSL (Windows Subsystem for Linux)</li>
+                 <div class="dev-icons">
+                    <img class="dev-icon" src="img/dev-icons/windows.svg" alt="windows-icon">
+                    <img class="dev-icon" src="img/dev-icons/linux.svg" alt="linux-icon">
+                  </div>
+            </div>
+             <div class="skill-element">
+              <h3 class="skill-element__heading">Methodologies & Principles</h3>
+              <ul class="skill__list">
+                <li class="skill__item">BEM, Responsive design, SCSS, Clean code principles, Object-Oriented Programming
+                  <div class="dev-icons">
+                    <img class="dev-icon" src="img/dev-icons/sass.svg" alt="sass-icon">
+                    <img class="dev-icon" src="img/dev-icons/clean.png" alt="clean-code illustration">
+                    <img class="dev-icon" src="img/dev-icons/oop.png" alt="oop illustration">
+                    
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-portfolio">
+          <h2 class="heading-secondary u-margin-bottom-medium" >Portfolio</h2>
+
+      <div class="project-wrapper"> 
+        <div class="project">
+          <div class="project-description">
+            <h3 class="heading-tertiary u-margin-bottom-small">Self-learning Project — Browser Card Game "DrunCard"</h3>
+            <p class="project-description__text">**DrunCard** is a dynamic and engaging version of the popular card game "War," designed to be played directly in your browser. The project is implemented using _JavaScript_, _HTML_, and _CSS_ following modern web development standards.</p>
+
+            <a class="project-btn project-btn--play" href="#">Play Now!</a>
+            <a class="project-btn project-btn--github" href="#">
+            GitHub <i class="devicon-github-original"></i>
+          </a>
+
+          </div>
+          <img class="project-logo" src="img/logo.webp" alt="Project-Logo">
+        </div>
+     </div>
+        </section>
+
+
+
+        </div>
+      </main>
+    
   </body>
 </html>
