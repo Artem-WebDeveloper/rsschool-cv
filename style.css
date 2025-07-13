@@ -280,7 +280,7 @@ a:active {
 
 .project-btn--play {
   background-color: #ae3ec9;
-  border: 0.2rem solid #ececec;
+  border: 0.2rem solid var(--font-color-default);
 }
 
 .project-btn--github {
@@ -363,7 +363,7 @@ code {
 .education-heading {
   font-size: 2.2rem;
   font-weight: 200;
-  color: #c5c5c5;
+  color: var(--font-color-default-hover);
   margin-bottom: 2rem;
   border-left: 0.3rem solid #8b32a1;
   padding-left: 1rem;
@@ -375,7 +375,7 @@ code {
   margin-bottom: 3rem;
 }
 
-.edudation-list {
+.education-list {
   list-style: none;
 }
 
